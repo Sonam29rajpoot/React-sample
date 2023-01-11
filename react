@@ -1,0 +1,175 @@
+Script started on 2023-01-11 18:47:01+00:00 [TERM="xterm" TTY="/dev/pts/1" COLUMNS="172" LINES="28"]
+[?2004h]0;root@ip-172-31-3-150: /var/www/html/raveenaroot@ip-172-31-3-150:/var/www/html/raveena# cd 
+[?2004l[?2004h]0;root@ip-172-31-3-150: ~root@ip-172-31-3-150:~# cd .ssh
+[?2004l[?2004h]0;root@ip-172-31-3-150: ~/.sshroot@ip-172-31-3-150:~/.ssh# ls -al
+[?2004ltotal 12
+drwx------ 2 root root 4096 Jan  7 10:50 [0m[01;34m.[0m
+drwx------ 5 root root 4096 Jan 11 18:43 [01;34m..[0m
+-rw------- 1 root root  551 Jan  7 10:50 authorized_keys
+[?2004h]0;root@ip-172-31-3-150: ~/.sshroot@ip-172-31-3-150:~/.ssh# ssh -i [K[K[K[K-keygen
+[?2004lGenerating public/private rsa key pair.
+Enter file in which to save the key (/root/.ssh/id_rsa): 
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /root/.ssh/id_rsa
+Your public key has been saved in /root/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:KSukZdEj+uIgGsjMjb3n7rq1Fcu5EVGtCRb9sOWa4sU root@ip-172-31-3-150
+The key's randomart image is:
++---[RSA 3072]----+
+|       .o..      |
+|     . o.o o     |
+|    o +.. O      |
+|   . o ..= o     |
+|  . + .oS o      |
+|= +*  .+=E       |
+|==ooo.o*o        |
+|o+ .ooo.o        |
+|. .+B= .         |
++----[SHA256]-----+
+[?2004h]0;root@ip-172-31-3-150: ~/.sshroot@ip-172-31-3-150:~/.ssh# ls -la
+[?2004ltotal 20
+drwx------ 2 root root 4096 Jan 11 18:48 [0m[01;34m.[0m
+drwx------ 5 root root 4096 Jan 11 18:43 [01;34m..[0m
+-rw------- 1 root root  551 Jan  7 10:50 authorized_keys
+-rw------- 1 root root 2610 Jan 11 18:48 id_rsa
+-rw-r--r-- 1 root root  574 Jan 11 18:48 id_rsa.pub
+[?2004h]0;root@ip-172-31-3-150: ~/.sshroot@ip-172-31-3-150:~/.ssh# cd[Kat i_[Kd_rsa
+[?2004l-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAABlwAAAAdzc2gtcn
+NhAAAAAwEAAQAAAYEAmxnjkl0Y4tFXaBYzB5ovykfjU1DvCCN/L/m1El/qoN6GmauXPcDQ
+92dPViWA0vzNOMmWS2pahMZN6Q2drlLUBGXOuEhU7AUGUjQWEQVYLkjh4dIT2+2r5tZ2IE
+5DhCdX6AbrjtXT451l8xTKZNX+20tlVwOC8PT6IiMN11rFgAg8PhXt3ncGf8+oG2//IKun
+eFWeQGZUklGGM8rLfCwxHHbgeAJYV5Zs0J0ZoUAZdovmtKOthHU4Ujz5HyRt/B3QyoPQwM
+qMqtOdPy5R7xaR/sZhg1/dsMNqwvzT4cpbwHaELToxBHHrjLwBVL55+EwgVAFs3i88Ee5b
+iOlGjRRbc0ccysd5LPD9MnEHjLwaauWZofMq/+20zGNgnYy2Z15Yf+fuW2HQKwJ9otmtgf
+tdxcQHjm1A+dbJNKb3esPN9303tnb2hqjUaEEvl8sObLfJcN5v1ohoTadPL2MQTvZSsjqS
+pAhTVFnpAd+MsGW19flExuo2h+sv4nG4uKmGmRdzAAAFkHc91w53PdcOAAAAB3NzaC1yc2
+EAAAGBAJsZ45JdGOLRV2gWMweaL8pH41NQ7wgjfy/5tRJf6qDehpmrlz3A0PdnT1YlgNL8
+zTjJlktqWoTGTekNna5S1ARlzrhIVOwFBlI0FhEFWC5I4eHSE9vtq+bWdiBOQ4QnV+gG64
+7V0+OdZfMUymTV/ttLZVcDgvD0+iIjDddaxYAIPD4V7d53Bn/PqBtv/yCrp3hVnkBmVJJR
+hjPKy3wsMRx24HgCWFeWbNCdGaFAGXaL5rSjrYR1OFI8+R8kbfwd0MqD0MDKjKrTnT8uUe
+8Wkf7GYYNf3bDDasL80+HKW8B2hC06MQRx64y8AVS+efhMIFQBbN4vPBHuW4jpRo0UW3NH
+HMrHeSzw/TJxB4y8GmrlmaHzKv/ttMxjYJ2MtmdeWH/n7lth0CsCfaLZrYH7XcXEB45tQP
+nWyTSm93rDzfd9N7Z29oao1GhBL5fLDmy3yXDeb9aIaE2nTy9jEE72UrI6kqQIU1RZ6QHf
+jLBltfX5RMbqNofrL+JxuLiphpkXcwAAAAMBAAEAAAGAN6V1MXj3ScFjw7NbQZn/FWrvU2
+ARMnFR24uSfHIvQuIzloSqsXwxPOIy46x26LvMgVhJ9OrGaSago0HAVd/fs2g3X4SL+1Xe
+K7YGSLsLJSf+6r8tYtWFvD8riHGr5YkcD+ITt15eNCavgiPubXkdg94sEKjw3LR33bGH8M
+DfZQ0PWBMUEaHQkiCVpqpq9XTAk/rb2S0doJVhOcnDcdyFDjpUVJo6ycntZndGz8SonhCZ
+iCvFQGWx/Edl9ddjInYreL9Ns+j5/oWf3LxSrIrHKM54SjeWxq2FkS+w0jrqYK/MmP9EdY
+CppkMCuUgd/lnGuzKxLb5KLTR27a1i4lJhK7yuYWYOEYXWzC5JKm4bSdo11/ATQ6Xccd6x
+/Y8Do6ZsvjJO2Ap6Ftv9gsxnggcHtAoaBkPjZwhei27ao81ncrF9bfx2fpQliMPgp/2aCi
+8PcQLi7QjXf4TlQN8nmodNzz3wcKIcHZ7oqWPVskBYpIH3W7hjkr5aik9VlfJRA00BAAAA
+wFA+Q6ME1+4qxMMm2Jcpy4FV4q5XGgy+7IIJHAAKyaCccV8TmLd4m0OkzjQkTlB3y4GQqc
+QgDy3tFm3Ml0E//dVwSvXgu/GP9kGUl+eWIZGN6GGcWiqCtkNMJrKyHnbpa0lbDSWBLwAu
+jxbXHNd7SfGhjUaf3B6IVyo+ymECgpqVc7ssiYdBkJNvMqreoEPJzCmBjqfM3XXyXREhnf
+n+ZMCip5tJaYiZIA0uUU5hbB+m0dt5MGqQeL/wbIn0zzcGdgAAAMEAzZxeXGCQFB43JHbm
+UCTs3WrFtvC8TH830kQc3pjtg8egiyOV6FHFxVPxPKmB+cWOUO8UnRYLIuZrIHEVPqsLr5
+US/mt8hG6N/brHXZR+3JXDM/WBHXXkAEG4xxH/dgTryss3LL4ra/gYtzs8xbKW2Do7d1Rz
+Qv3D9N8UNMNZjfQe7HqXBPWKOigkfMQccHsY7eZTYU+Aa8EqF6dheM3G4aGk+vwkuM0CFK
+XW8Cp3p8AwR03gx3fsfn/EyBMPzL6BAAAAwQDBHKODxhX76bWlLAhvtWhAW95sVKQYJeKg
+LuZPHXpZL1lML8iwFi8Li3VmYyC1cJOXSm77m9JFhqXAFBuT7QCnZnSPp//BQg109W16zH
+tGTojPdR6+hA1g/vrrFCEqcXMD+HAJ8c3dcuOqSIt4gM67yLoRN/IZ+Itw3l6wJPrZ6DWi
+zXQEtvUo6S1LRzQY3AXLGI6PjQ+j1d7Toz77GdroQkQ+PsTAHx6PG4+v2yPGKjsZMZ9Ztz
+hzuP15acgkw/MAAAAUcm9vdEBpcC0xNzItMzEtMy0xNTABAgMEBQYH
+-----END OPENSSH PRIVATE KEY-----
+[?2004h]0;root@ip-172-31-3-150: ~/.sshroot@ip-172-31-3-150:~/.ssh# cat id_rsa[4Pls -la
+[?2004ltotal 20
+drwx------ 2 root root 4096 Jan 11 18:48 [0m[01;34m.[0m
+drwx------ 5 root root 4096 Jan 11 18:43 [01;34m..[0m
+-rw------- 1 root root  551 Jan  7 10:50 authorized_keys
+-rw------- 1 root root 2610 Jan 11 18:48 id_rsa
+-rw-r--r-- 1 root root  574 Jan 11 18:48 id_rsa.pub
+[?2004h]0;root@ip-172-31-3-150: ~/.sshroot@ip-172-31-3-150:~/.ssh# catv[K [7mid_rsa.pub[27mid_rsa.pub
+[?2004lssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCbGeOSXRji0VdoFjMHmi/KR+NTUO8II38v+bUSX+qg3oaZq5c9wND3Z09WJYDS/M04yZZLalqExk3pDZ2uUtQEZc64SFTsBQZSNBYRBVguSOHh0hPb7avm1nYgTkOEJ1foBuuO1dPjnWXzFMpk1f7bS2VXA4Lw9PoiIw3XWsWACDw+Fe3edwZ/z6gbb/8gq6d4VZ5AZlSSUYYzyst8LDEcduB4AlhXlmzQnRmhQBl2i+a0o62EdThSPPkfJG38HdDKg9DAyoyq050/LlHvFpH+xmGDX92ww2rC/NPhylvAdoQtOjEEceuMvAFUvnn4TCBUAWzeLzwR7luI6UaNFFtzRxzKx3ks8P0ycQeMvBpq5Zmh8yr/7bTMY2CdjLZnXlh/5+5bYdArAn2i2a2B+13FxAeObUD51sk0pvd6w833fTe2dvaGqNRoQS+Xyw5st8lw3m/WiGhNp08vYxBO9lKyOpKkCFNUWekB34ywZbX1+UTG6jaH6y/icbi4qYaZF3M= root@ip-172-31-3-150
+[?2004h]0;root@ip-172-31-3-150: ~/.sshroot@ip-172-31-3-150:~/.ssh# [7mssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCbGeOSXRji0VdoFjMHmi/KR+NTUO8II38v+bUSX+qg3oaZq5c9wND3Z09WJYDS/M04yZZLalqExk3pDZ2uUtQEZc64SFTsBQZSNBYRBVg[27m[7mu[27m[7mSOHh0hPb7avm1nYgTkOEJ1foBuuO1dPjnWXzFMpk1f7bS2VXA4Lw9PoiIw3XWsWACDw+Fe3edwZ/z6gbb/8gq6d4VZ5AZlSSUYYzyst8LDEcduB4AlhXlmzQnRmhQBl2i+a0o62EdThSPPkfJG38HdDKg9DAyoyq050/LlHvFpH[27m[7m+[27m[7mxmGDX92ww2rC/NPhylvAdoQtOjEEceuMvAFUvnn4TCBUAWzeLzwR7luI6UaNFFtzRxzKx3ks8P0ycQeMvBpq5Zmh8yr/7bTMY2CdjLZnXlh/5+5bYdArAn2i2a2B+13FxAeObUD51sk0pvd6w833fTe2dvaGqNRoQS+Xyw5st8l[27m[7mw[27m[7m3m/WiGhNp08vYxBO9lKyOpKkCFNUWekB34ywZbX1+UTG6jaH6y/icbi4qYaZF3M=[27m[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCbGeOSXRji0VdoFjMHmi/KR+NTUO8II38v+bUSX+qg3oaZq5c9wND3Z09WJYDS/M04yZZLalqExk3pDZ2uUtQEZc64SFTsBQZSNBYRBVguSOHh0hPb7avm1nYgTkOEJ1foBuuO1dPjnWXzFMpk1f7bS2VXA4Lw9PoiIw3XWsWACDw+Fe3edwZ/z6gbb/8gq6d4VZ5AZlSSUYYzyst8LDEcduB4AlhXlmzQnRmhQBl2i+a0o62EdThSPPkfJG38HdDKg9DAyoyq050/LlHvFpH+xmGDX92ww2rC/NPhylvAdoQtOjEEceuMvAFUvnn4TCBUAWzeLzwR7luI6UaNFFtzRxzKx3ks8P0ycQeMvBpq5Zmh8yr/7bTMY2CdjLZnXlh/5+5bYdArAn2i2a2B+13FxAeObUD51sk0pvd6w833fTe2dvaGqNRoQS+Xyw5st8lw[1P3m/WiGhNp08vYxBO9lKyOpKkCFNUWekB34ywZbX1+UTG6jaH6y/icbi4qYaZF3M[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K^C[?2004l[?2004h[?2004l
+[?2004h]0;root@ip-172-31-3-150: ~/.sshroot@ip-172-31-3-150:~/.ssh# 
+[?2004l[?2004h]0;root@ip-172-31-3-150: ~/.sshroot@ip-172-31-3-150:~/.ssh# 
+[?2004l[?2004h]0;root@ip-172-31-3-150: ~/.sshroot@ip-172-31-3-150:~/.ssh# 
+[?2004l[?2004h]0;root@ip-172-31-3-150: ~/.sshroot@ip-172-31-3-150:~/.ssh# 
+[?2004l[?2004h]0;root@ip-172-31-3-150: ~/.sshroot@ip-172-31-3-150:~/.ssh# 
+[?2004l[?2004h]0;root@ip-172-31-3-150: ~/.sshroot@ip-172-31-3-150:~/.ssh# 
+[?2004l[?2004h]0;root@ip-172-31-3-150: ~/.sshroot@ip-172-31-3-150:~/.ssh# cd ..
+[?2004l[?2004h]0;root@ip-172-31-3-150: ~root@ip-172-31-3-150:~# cd /var/www/html/raveena/
+[?2004l[?2004h]0;root@ip-172-31-3-150: /var/www/html/raveenaroot@ip-172-31-3-150:/var/www/html/raveena# l - [K[K[Ks -al
+[?2004ltotal 1256
+drwxr-xr-x   7 root root    4096 Jan 11 18:46 [0m[01;34m.[0m
+drwxr-xr-x   5 root root    4096 Jan 11 18:37 [01;34m..[0m
+drwxr-xr-x   8 root root    4096 Jan 11 18:42 [01;34m.git[0m
+-rw-r--r--   1 root root    3359 Jan 11 17:57 README.md
+drwxr-xr-x   3 root root    4096 Jan 11 18:02 [01;34mbuild[0m
+drwxr-xr-x 823 root root   36864 Jan 11 17:58 [01;34mnode_modules[0m
+-rw-r--r--   1 root root 1203129 Jan 11 17:58 package-lock.json
+-rw-r--r--   1 root root     810 Jan 11 17:58 package.json
+drwxr-xr-x   2 root root    4096 Jan 11 17:57 [01;34mpublic[0m
+-rw-r--r--   1 root root    8192 Jan 11 18:50 react
+drwxr-xr-x   2 root root    4096 Jan 11 17:57 [01;34msrc[0m
+[?2004h]0;root@ip-172-31-3-150: /var/www/html/raveenaroot@ip-172-31-3-150:/var/www/html/raveena# git status
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mreact[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h]0;root@ip-172-31-3-150: /var/www/html/raveenaroot@ip-172-31-3-150:/var/www/html/raveena# git [K[K[K[K(reverse-i-search)`': [Ka': git st[7ma[27mtusd': group[7mad[27md aws[1@d': group[7madd[27m[C[8@failed reverse-i-search)`addd': groupadd[1@d[C[C[C[C[C[C[C[C[1@d[C[C[C[C[C[C[C[C[1@d[C[C[C[C[C[C[C[C[1P[C[C[C[C[C[C[C[C[1P[C[C[C[C[C[C[C[C[1P[C[C[C[C[C[C[C[C[C[5Preverse-i-search)`add': group[7madd[27m devops[1P': group[7mad[27md[1P': group[7ma[27md(failed reverse-i-search)`': groupadd devops(failed reverse-i-search)`': groupadd devops[C[6Preverse-i-search)`g': [7mg[27m[C[8@failed reverse-i-search)`gi': g[1@t[C[C[C[1@a[C[C[C[1@d[C[C[C[1@d[C[C[C[1P[C[C[C[1P[C[C[C[1P[C[C[C[1P[C[C[C[1P[C[C[C(failed reverse-i-search)`': groupadd devops[K(failed reverse-i-search)`': groupadd devops(failed reverse-i-search)`': groupadd devops(failed reverse-i-search)`': groupadd devops(failed reverse-i-search)`': groupadd devops(failed reverse-i-search)`': groupadd devops(failed reverse-i-search)`': groupadd devops(failed reverse-i-search)`': groupadd devops(failed reverse-i-search)`': groupadd devops(failed reverse-i-search)`': groupadd devops(failed reverse-i-search)`': groupadd devops]0;root@ip-172-31-3-150: /var/www/html/raveenaroot@ip-172-31-3-150:/var/www/html/raveena# groupadd devops[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit add react
+[?2004l[?2004h]0;root@ip-172-31-3-150: /var/www/html/raveenaroot@ip-172-31-3-150:/var/www/html/raveena# (reverse-i-search)`': [Kc': git add rea[7mc[27mt[Cfailed reverse-i-search)`co': git add react[1@m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@i[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@t[C[C[C[C[C[C[C[C[C[C[C[C[C[C]0;root@ip-172-31-3-150: /var/www/html/raveenaroot@ip-172-31-3-150:/var/www/html/raveena# git add react[C[C[C[C[3Pstatusadd react[K[K[K[K[K[K[K[K[Kcommit -m ""c"[1P"a"n"i"s"h" "k"u"t"t"i"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"f"i"l"e"[C
+[?2004l[main df27d81a] file
+ 1 file changed, 86 insertions(+)
+ create mode 100644 react
+[?2004h]0;root@ip-172-31-3-150: /var/www/html/raveenaroot@ip-172-31-3-150:/var/www/html/raveena# git push [K[K[K[K[Kbranch
+[?2004l[?1h=* [32mmain[m[m
+[K[?1l>[?2004h]0;root@ip-172-31-3-150: /var/www/html/raveenaroot@ip-172-31-3-150:/var/www/html/raveena# git push origin main
+[?2004lUsername for 'https://github.com': sonam29
+Password for 'https://sonam29@github.com': 
+[?2004h]0;root@ip-172-31-3-150: /var/www/html/raveenaroot@ip-172-31-3-150:/var/www/html/raveena# git clone [7mgit@github.com:Sonam29rajpoot/React-sample.git[27mgit@github.com:Sonam29rajpoot/React-sample.git
+[?2004lCloning into 'React-sample'...
+The authenticity of host 'github.com (20.207.73.82)' can't be established.
+ED25519 key fingerprint is SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU.
+This key is not known by any other names
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+remote: Enumerating objects: 28336, done.[K
+Receiving objects:   0% (1/28336)Receiving objects:   0% (119/28336), 84.01 KiB | 126.00 KiB/sReceiving objects:   0% (184/28336), 9.36 MiB | 4.19 MiB/s   Receiving objects:   1% (284/28336), 9.36 MiB | 4.19 MiB/sReceiving objects:   2% (567/28336), 9.36 MiB | 4.19 MiB/sReceiving objects:   3% (851/28336), 9.36 MiB | 4.19 MiB/sReceiving objects:   4% (1134/28336), 9.36 MiB | 4.19 MiB/sReceiving objects:   5% (1417/28336), 9.36 MiB | 4.19 MiB/sReceiving objects:   6% (1701/28336), 9.36 MiB | 4.19 MiB/sReceiving objects:   7% (1984/28336), 9.36 MiB | 4.19 MiB/sReceiving objects:   8% (2267/28336), 9.36 MiB | 4.19 MiB/sReceiving objects:   9% (2551/28336), 9.36 MiB | 4.19 MiB/sReceiving objects:  10% (2834/28336), 9.36 MiB | 4.19 MiB/sReceiving objects:  11% (3117/28336), 9.36 MiB | 4.19 MiB/sReceiving objects:  12% (3401/28336), 9.36 MiB | 4.19 MiB/sReceiving objects:  13% (3684/28336), 14.36 MiB | 5.24 MiB/sReceiving objects:  14% (3968/28336), 14.36 MiB | 5.24 MiB/sReceiving objects:  15% (4251/28336), 14.36 MiB | 5.24 MiB/sReceiving objects:  16% (4534/28336), 14.36 MiB | 5.24 MiB/sReceiving objects:  17% (4818/28336), 14.36 MiB | 5.24 MiB/sReceiving objects:  18% (5101/28336), 14.36 MiB | 5.24 MiB/sReceiving objects:  19% (5384/28336), 14.36 MiB | 5.24 MiB/sReceiving objects:  20% (5668/28336), 14.36 MiB | 5.24 MiB/sReceiving objects:  21% (5951/28336), 14.36 MiB | 5.24 MiB/sReceiving objects:  21% (6101/28336), 14.36 MiB | 5.24 MiB/sReceiving objects:  22% (6234/28336), 14.36 MiB | 5.24 MiB/sReceiving objects:  23% (6518/28336), 14.36 MiB | 5.24 MiB/sReceiving objects:  24% (6801/28336), 14.36 MiB | 5.24 MiB/sReceiving objects:  25% (7084/28336), 14.36 MiB | 5.24 MiB/sReceiving objects:  26% (7368/28336), 14.36 MiB | 5.24 MiB/sReceiving objects:  27% (7651/28336), 14.36 MiB | 5.24 MiB/sReceiving objects:  28% (7935/28336), 14.36 MiB | 5.24 MiB/sReceiving objects:  29% (8218/28336), 14.36 MiB | 5.24 MiB/sReceiving objects:  30% (8501/28336), 19.32 MiB | 5.92 MiB/sReceiving objects:  31% (8785/28336), 19.32 MiB | 5.92 MiB/sReceiving objects:  32% (9068/28336), 19.32 MiB | 5.92 MiB/sReceiving objects:  33% (9351/28336), 19.32 MiB | 5.92 MiB/sReceiving objects:  34% (9635/28336), 19.32 MiB | 5.92 MiB/sReceiving objects:  35% (9918/28336), 19.32 MiB | 5.92 MiB/sReceiving objects:  36% (10201/28336), 19.32 MiB | 5.92 MiB/sReceiving objects:  37% (10485/28336), 19.32 MiB | 5.92 MiB/sReceiving objects:  38% (10768/28336), 19.32 MiB | 5.92 MiB/sReceiving objects:  39% (11052/28336), 19.32 MiB | 5.92 MiB/sReceiving objects:  40% (11335/28336), 19.32 MiB | 5.92 MiB/sReceiving objects:  41% (11618/28336), 19.32 MiB | 5.92 MiB/sReceiving objects:  42% (11902/28336), 19.32 MiB | 5.92 MiB/sReceiving objects:  43% (12185/28336), 19.32 MiB | 5.92 MiB/sReceiving objects:  44% (12468/28336), 19.32 MiB | 5.92 MiB/sReceiving objects:  45% (12752/28336), 19.32 MiB | 5.92 MiB/sReceiving objects:  46% (13035/28336), 19.32 MiB | 5.92 MiB/sReceiving objects:  47% (13318/28336), 19.32 MiB | 5.92 MiB/sReceiving objects:  48% (13602/28336), 19.32 MiB | 5.92 MiB/sReceiving objects:  49% (13885/28336), 19.32 MiB | 5.92 MiB/sReceiving objects:  50% (14168/28336), 19.32 MiB | 5.92 MiB/sReceiving objects:  51% (14452/28336), 19.32 MiB | 5.92 MiB/sReceiving objects:  52% (14735/28336), 19.32 MiB | 5.92 MiB/sReceiving objects:  53% (15019/28336), 19.32 MiB | 5.92 MiB/sReceiving objects:  54% (15302/28336), 19.32 MiB | 5.92 MiB/sReceiving objects:  55% (15585/28336), 19.32 MiB | 5.92 MiB/sReceiving objects:  56% (15869/28336), 19.32 MiB | 5.92 MiB/sReceiving objects:  57% (16152/28336), 24.35 MiB | 6.45 MiB/sReceiving objects:  58% (16435/28336), 24.35 MiB | 6.45 MiB/sReceiving objects:  59% (16719/28336), 24.35 MiB | 6.45 MiB/sReceiving objects:  60% (17002/28336), 24.35 MiB | 6.45 MiB/sReceiving objects:  61% (17285/28336), 24.35 MiB | 6.45 MiB/sReceiving objects:  62% (17569/28336), 24.35 MiB | 6.45 MiB/sReceiving objects:  63% (17852/28336), 24.35 MiB | 6.45 MiB/sReceiving objects:  64% (18136/28336), 24.35 MiB | 6.45 MiB/sReceiving objects:  65% (18419/28336), 24.35 MiB | 6.45 MiB/sReceiving objects:  65% (18498/28336), 24.35 MiB | 6.45 MiB/sReceiving objects:  66% (18702/28336), 24.35 MiB | 6.45 MiB/sReceiving objects:  67% (18986/28336), 24.35 MiB | 6.45 MiB/sReceiving objects:  68% (19269/28336), 24.35 MiB | 6.45 MiB/sReceiving objects:  69% (19552/28336), 24.35 MiB | 6.45 MiB/sReceiving objects:  70% (19836/28336), 24.35 MiB | 6.45 MiB/sReceiving objects:  71% (20119/28336), 24.35 MiB | 6.45 MiB/sReceiving objects:  72% (20402/28336), 24.35 MiB | 6.45 MiB/sReceiving objects:  73% (20686/28336), 24.35 MiB | 6.45 MiB/sReceiving objects:  74% (20969/28336), 24.35 MiB | 6.45 MiB/sReceiving objects:  75% (21252/28336), 24.35 MiB | 6.45 MiB/sReceiving objects:  76% (21536/28336), 24.35 MiB | 6.45 MiB/sReceiving objects:  77% (21819/28336), 29.29 MiB | 6.82 MiB/sReceiving objects:  78% (22103/28336), 29.29 MiB | 6.82 MiB/sReceiving objects:  79% (22386/28336), 29.29 MiB | 6.82 MiB/sReceiving objects:  80% (22669/28336), 29.29 MiB | 6.82 MiB/sReceiving objects:  81% (22953/28336), 29.29 MiB | 6.82 MiB/sReceiving objects:  82% (23236/28336), 29.29 MiB | 6.82 MiB/sReceiving objects:  83% (23519/28336), 29.29 MiB | 6.82 MiB/sReceiving objects:  84% (23803/28336), 29.29 MiB | 6.82 MiB/sReceiving objects:  85% (24086/28336), 29.29 MiB | 6.82 MiB/sReceiving objects:  86% (24369/28336), 29.29 MiB | 6.82 MiB/sReceiving objects:  87% (24653/28336), 29.29 MiB | 6.82 MiB/sReceiving objects:  88% (24936/28336), 29.29 MiB | 6.82 MiB/sReceiving objects:  89% (25220/28336), 34.34 MiB | 7.14 MiB/sReceiving objects:  90% (25503/28336), 34.34 MiB | 7.14 MiB/sReceiving objects:  90% (25746/28336), 34.34 MiB | 7.14 MiB/sReceiving objects:  91% (25786/28336), 34.34 MiB | 7.14 MiB/sReceiving objects:  91% (25836/28336), 44.34 MiB | 9.38 MiB/sReceiving objects:  92% (26070/28336), 44.34 MiB | 9.38 MiB/sReceiving objects:  93% (26353/28336), 44.34 MiB | 9.38 MiB/sReceiving objects:  94% (26636/28336), 44.34 MiB | 9.38 MiB/sReceiving objects:  95% (26920/28336), 44.34 MiB | 9.38 MiB/sReceiving objects:  96% (27203/28336), 44.34 MiB | 9.38 MiB/sReceiving objects:  97% (27486/28336), 44.34 MiB | 9.38 MiB/sReceiving objects:  98% (27770/28336), 44.34 MiB | 9.38 MiB/sReceiving objects:  99% (28053/28336), 49.22 MiB | 9.59 MiB/sremote: Total 28336 (delta 0), reused 0 (delta 0), pack-reused 28336[K
+Receiving objects: 100% (28336/28336), 49.22 MiB | 9.59 MiB/sReceiving objects: 100% (28336/28336), 49.70 MiB | 7.76 MiB/s, done.
+Resolving deltas:   0% (0/4968)Resolving deltas:   1% (50/4968)Resolving deltas:   2% (100/4968)Resolving deltas:   3% (150/4968)Resolving deltas:   4% (199/4968)Resolving deltas:   5% (249/4968)Resolving deltas:   6% (299/4968)Resolving deltas:   7% (348/4968)Resolving deltas:   8% (398/4968)Resolving deltas:   9% (448/4968)Resolving deltas:  10% (497/4968)Resolving deltas:  11% (547/4968)Resolving deltas:  12% (597/4968)Resolving deltas:  13% (646/4968)Resolving deltas:  14% (696/4968)Resolving deltas:  15% (746/4968)Resolving deltas:  16% (795/4968)Resolving deltas:  17% (845/4968)Resolving deltas:  18% (895/4968)Resolving deltas:  19% (944/4968)Resolving deltas:  20% (994/4968)Resolving deltas:  21% (1044/4968)Resolving deltas:  22% (1093/4968)Resolving deltas:  23% (1143/4968)Resolving deltas:  24% (1193/4968)Resolving deltas:  25% (1242/4968)Resolving deltas:  26% (1292/4968)Resolving deltas:  27% (1342/4968)Resolving deltas:  28% (1392/4968)Resolving deltas:  29% (1441/4968)Resolving deltas:  30% (1491/4968)Resolving deltas:  31% (1541/4968)Resolving deltas:  32% (1590/4968)Resolving deltas:  33% (1640/4968)Resolving deltas:  34% (1690/4968)Resolving deltas:  35% (1739/4968)Resolving deltas:  36% (1789/4968)Resolving deltas:  37% (1839/4968)Resolving deltas:  38% (1888/4968)Resolving deltas:  39% (1938/4968)Resolving deltas:  40% (1988/4968)Resolving deltas:  41% (2037/4968)Resolving deltas:  42% (2087/4968)Resolving deltas:  43% (2137/4968)Resolving deltas:  44% (2186/4968)Resolving deltas:  45% (2236/4968)Resolving deltas:  46% (2286/4968)Resolving deltas:  47% (2335/4968)Resolving deltas:  48% (2385/4968)Resolving deltas:  49% (2435/4968)Resolving deltas:  50% (2484/4968)Resolving deltas:  51% (2534/4968)Resolving deltas:  52% (2584/4968)Resolving deltas:  53% (2634/4968)Resolving deltas:  54% (2683/4968)Resolving deltas:  55% (2733/4968)Resolving deltas:  56% (2783/4968)Resolving deltas:  57% (2832/4968)Resolving deltas:  58% (2882/4968)Resolving deltas:  59% (2932/4968)Resolving deltas:  60% (2981/4968)Resolving deltas:  61% (3031/4968)Resolving deltas:  62% (3081/4968)Resolving deltas:  63% (3130/4968)Resolving deltas:  64% (3180/4968)Resolving deltas:  65% (3230/4968)Resolving deltas:  66% (3279/4968)Resolving deltas:  67% (3329/4968)Resolving deltas:  68% (3379/4968)Resolving deltas:  69% (3428/4968)Resolving deltas:  70% (3478/4968)Resolving deltas:  71% (3528/4968)Resolving deltas:  72% (3577/4968)Resolving deltas:  73% (3627/4968)Resolving deltas:  74% (3677/4968)Resolving deltas:  75% (3726/4968)Resolving deltas:  76% (3776/4968)Resolving deltas:  77% (3826/4968)Resolving deltas:  78% (3876/4968)Resolving deltas:  79% (3925/4968)Resolving deltas:  80% (3975/4968)Resolving deltas:  81% (4025/4968)Resolving deltas:  82% (4074/4968)Resolving deltas:  83% (4124/4968)Resolving deltas:  84% (4174/4968)Resolving deltas:  85% (4223/4968)Resolving deltas:  86% (4273/4968)Resolving deltas:  87% (4323/4968)Resolving deltas:  88% (4372/4968)Resolving deltas:  89% (4422/4968)Resolving deltas:  90% (4472/4968)Resolving deltas:  91% (4521/4968)Resolving deltas:  92% (4571/4968)Resolving deltas:  93% (4621/4968)Resolving deltas:  94% (4670/4968)Resolving deltas:  95% (4720/4968)Resolving deltas:  96% (4770/4968)Resolving deltas:  97% (4819/4968)Resolving deltas:  98% (4869/4968)Resolving deltas:  99% (4919/4968)Resolving deltas: 100% (4968/4968)Resolving deltas: 100% (4968/4968), done.
+Updating files:  29% (10651/36424)Updating files:  30% (10928/36424)Updating files:  31% (11292/36424)Updating files:  32% (11656/36424)Updating files:  33% (12020/36424)Updating files:  34% (12385/36424)Updating files:  35% (12749/36424)Updating files:  36% (13113/36424)Updating files:  37% (13477/36424)Updating files:  38% (13842/36424)Updating files:  39% (14206/36424)Updating files:  40% (14570/36424)Updating files:  41% (14934/36424)Updating files:  42% (15299/36424)Updating files:  43% (15663/36424)Updating files:  44% (16027/36424)Updating files:  45% (16391/36424)Updating files:  46% (16756/36424)Updating files:  47% (17120/36424)Updating files:  48% (17484/36424)Updating files:  49% (17848/36424)Updating files:  50% (18212/36424)Updating files:  51% (18577/36424)Updating files:  52% (18941/36424)Updating files:  53% (19305/36424)Updating files:  54% (19669/36424)Updating files:  55% (20034/36424)Updating files:  56% (20398/36424)Updating files:  57% (20762/36424)Updating files:  58% (21126/36424)Updating files:  59% (21491/36424)Updating files:  60% (21855/36424)Updating files:  61% (22219/36424)Updating files:  62% (22583/36424)Updating files:  63% (22948/36424)Updating files:  64% (23312/36424)Updating files:  65% (23676/36424)Updating files:  66% (24040/36424)Updating files:  67% (24405/36424)Updating files:  68% (24769/36424)Updating files:  69% (25133/36424)Updating files:  69% (25220/36424)Updating files:  70% (25497/36424)Updating files:  71% (25862/36424)Updating files:  72% (26226/36424)Updating files:  73% (26590/36424)Updating files:  74% (26954/36424)Updating files:  75% (27318/36424)Updating files:  76% (27683/36424)Updating files:  77% (28047/36424)Updating files:  78% (28411/36424)Updating files:  79% (28775/36424)Updating files:  80% (29140/36424)Updating files:  81% (29504/36424)Updating files:  82% (29868/36424)Updating files:  83% (30232/36424)Updating files:  83% (30342/36424)Updating files:  84% (30597/36424)Updating files:  85% (30961/36424)Updating files:  86% (31325/36424)Updating files:  87% (31689/36424)Updating files:  88% (32054/36424)Updating files:  88% (32114/36424)Updating files:  89% (32418/36424)Updating files:  90% (32782/36424)Updating files:  91% (33146/36424)Updating files:  92% (33511/36424)Updating files:  93% (33875/36424)Updating files:  94% (34239/36424)Updating files:  95% (34603/36424)Updating files:  96% (34968/36424)Updating files:  97% (35332/36424)Updating files:  98% (35696/36424)Updating files:  98% (35970/36424)Updating files:  99% (36060/36424)Updating files: 100% (36424/36424)Updating files: 100% (36424/36424), done.
+[?2004h]0;root@ip-172-31-3-150: /var/www/html/raveenaroot@ip-172-31-3-150:/var/www/html/raveena# rm [K[K[Krm .[K-rf .git
+[?2004l[?2004h]0;root@ip-172-31-3-150: /var/www/html/raveenaroot@ip-172-31-3-150:/var/www/html/raveena# ls
+[?2004lREADME.md  [0m[01;34mReact-sample[0m  [01;34mbuild[0m  [01;34mnode_modules[0m  package-lock.json  package.json  [01;34mpublic[0m  react  [01;34msrc[0m
+[?2004h]0;root@ip-172-31-3-150: /var/www/html/raveenaroot@ip-172-31-3-150:/var/www/html/raveena# cp -[K[K[K[Krea[K[K[KRE[Keact-sample/cReact-sample/dReact-sample/ React-sample/
+[?2004l[?2004h]0;root@ip-172-31-3-150: /var/www/html/raveena/React-sampleroot@ip-172-31-3-150:/var/www/html/raveena/React-sample# ls
+[?2004lREADME.md  [0m[01;34mbuild[0m  [01;34mnode_modules[0m  package-lock.json  package.json  [01;34mpublic[0m  [01;34msrc[0m
+[?2004h]0;root@ip-172-31-3-150: /var/www/html/raveena/React-sampleroot@ip-172-31-3-150:/var/www/html/raveena/React-sample# ls -al
+[?2004ltotal 1248
+drwxr-xr-x   7 root root    4096 Jan 11 18:55 [0m[01;34m.[0m
+drwxr-xr-x   7 root root    4096 Jan 11 18:56 [01;34m..[0m
+drwxr-xr-x   8 root root    4096 Jan 11 18:55 [01;34m.git[0m
+-rw-r--r--   1 root root    3359 Jan 11 18:55 README.md
+drwxr-xr-x   3 root root    4096 Jan 11 18:55 [01;34mbuild[0m
+drwxr-xr-x 823 root root   36864 Jan 11 18:55 [01;34mnode_modules[0m
+-rw-r--r--   1 root root 1203129 Jan 11 18:55 package-lock.json
+-rw-r--r--   1 root root     810 Jan 11 18:55 package.json
+drwxr-xr-x   2 root root    4096 Jan 11 18:55 [01;34mpublic[0m
+drwxr-xr-x   2 root root    4096 Jan 11 18:55 [01;34msrc[0m
+[?2004h]0;root@ip-172-31-3-150: /var/www/html/raveena/React-sampleroot@ip-172-31-3-150:/var/www/html/raveena/React-sample# cp -r ./[K./[K[K[K.gt[Kit ../
+[?2004l[?2004h]0;root@ip-172-31-3-150: /var/www/html/raveena/React-sampleroot@ip-172-31-3-150:/var/www/html/raveena/React-sample# cd ..
+[?2004l[?2004h]0;root@ip-172-31-3-150: /var/www/html/raveenaroot@ip-172-31-3-150:/var/www/html/raveena# ls -al
+[?2004ltotal 1280
+drwxr-xr-x   8 root root    4096 Jan 11 18:57 [0m[01;34m.[0m
+drwxr-xr-x   5 root root    4096 Jan 11 18:37 [01;34m..[0m
+drwxr-xr-x   8 root root    4096 Jan 11 18:57 [01;34m.git[0m
+-rw-r--r--   1 root root    3359 Jan 11 17:57 README.md
+drwxr-xr-x   7 root root    4096 Jan 11 18:55 [01;34mReact-sample[0m
+drwxr-xr-x   3 root root    4096 Jan 11 18:02 [01;34mbuild[0m
+drwxr-xr-x 823 root root   36864 Jan 11 17:58 [01;34mnode_modules[0m
+-rw-r--r--   1 root root 1203129 Jan 11 17:58 package-lock.json
+-rw-r--r--   1 root root     810 Jan 11 17:58 package.json
+drwxr-xr-x   2 root root    4096 Jan 11 17:57 [01;34mpublic[0m
+-rw-r--r--   1 root root   28672 Jan 11 18:56 react
+drwxr-xr-x   2 root root    4096 Jan 11 17:57 [01;34msrc[0m
+[?2004h]0;root@ip-172-31-3-150: /var/www/html/raveenaroot@ip-172-31-3-150:/var/www/html/raveena# rm -rf React-sample/
+[?2004l[?2004h]0;root@ip-172-31-3-150: /var/www/html/raveenaroot@ip-172-31-3-150:/var/www/html/raveena# git satt[K[K[Ktatus
+[?2004lRefresh index:   1% (682/36424)Refresh index:   2% (729/36424)Refresh index:   3% (1093/36424)Refresh index:   4% (1457/36424)Refresh index:   5% (1822/36424)Refresh index:   5% (2036/36424)Refresh index:   6% (2186/36424)Refresh index:   7% (2550/36424)Refresh index:   8% (2914/36424)Refresh index:   8% (3210/36424)Refresh index:   9% (3279/36424)Refresh index:  10% (3643/36424)Refresh index:  11% (4007/36424)Refresh index:  12% (4371/36424)Refresh index:  12% (4475/36424)Refresh index:  13% (4736/36424)Refresh index:  14% (5100/36424)Refresh index:  15% (5464/36424)Refresh index:  16% (5828/36424)Refresh index:  16% (5975/36424)Refresh index:  17% (6193/36424)Refresh index:  18% (6557/36424)Refresh index:  19% (6921/36424)Refresh index:  20% (7285/36424)Refresh index:  20% (7343/36424)Refresh index:  21% (7650/36424)Refresh index:  22% (8014/36424)Refresh index:  23% (8378/36424)Refresh index:  24% (8742/36424)Refresh index:  24% (8855/36424)Refresh index:  25% (9106/36424)Refresh index:  26% (9471/36424)Refresh index:  27% (9835/36424)Refresh index:  28% (10199/36424)Refresh index:  29% (10563/36424)Refresh index:  29% (10618/36424)Refresh index:  30% (10928/36424)Refresh index:  31% (11292/36424)Refresh index:  32% (11656/36424)Refresh index:  33% (12020/36424)Refresh index:  33% (12164/36424)Refresh index:  34% (12385/36424)Refresh index:  35% (12749/36424)Refresh index:  36% (13113/36424)Refresh index:  36% (13450/36424)Refresh index:  37% (13477/36424)Refresh index:  38% (13842/36424)Refresh index:  39% (14206/36424)Refresh index:  40% (14570/36424)Refresh index:  40% (14858/36424)Refresh index:  41% (14934/36424)Refresh index:  42% (15299/36424)Refresh index:  43% (15663/36424)Refresh index:  44% (16027/36424)Refresh index:  44% (16275/36424)Refresh index:  45% (16391/36424)Refresh index:  46% (16756/36424)Refresh index:  47% (17120/36424)Refresh index:  48% (17484/36424)Refresh index:  48% (17629/36424)Refresh index:  49% (17848/36424)Refresh index:  50% (18212/36424)Refresh index:  51% (18577/36424)Refresh index:  51% (18905/36424)Refresh index:  52% (18941/36424)Refresh index:  53% (19305/36424)Refresh index:  54% (19669/36424)Refresh index:  55% (20034/36424)Refresh index:  55% (20093/36424)Refre
